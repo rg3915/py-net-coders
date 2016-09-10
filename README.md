@@ -15,7 +15,6 @@ Este foi um [Mini Curso de Python](http://www.meetup.com/NetCoders/events/233733
 * split
 * for
 * if else
-* range
 * list comprehensions
 * type(), help(), dir()
 * atribuições múltiplas
@@ -59,13 +58,13 @@ O Python também pode gerar um `.exe` para Windows. Veja [py2exe](http://www.py2
 
 ### Tipagem Forte
 
-Quando você não transforma um tipo em outro implicitamente.
+O Python não transforma um tipo em outro implicitamente.
 
 Exemplo, '1' + 1 em Python dá erro. Em outras linguagens dá '11'.
 
 ### Tipagem Dinâmica
 
-Quando a identificação do tipo acontece em Runtime. Em oposição à tipagem estática quando você define o tipo no código fonte como em C, por exemplo.
+A identificação do tipo acontece em Runtime. Em oposição à tipagem estática quando você define o tipo no código fonte como em C, por exemplo.
 
 Exemplo:
 
@@ -83,6 +82,14 @@ Exemplo:
 
 
 ## O interpretador Python
+
+```bash
+$ python
+Python 3.5.0 (default, Dec  8 2015, 01:17:16) 
+[GCC 4.8.4] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
 
 Executando programas Python direto pelo terminal.
 
@@ -221,12 +228,12 @@ palavras = 'joaquim josé da silva xavier'
 ...
 ```
 
-## Python tem tipagem forte e dinâmica
+
 
 ## Operadores
 
 ```python
-(2**10 + 3 * 2) / (48 - 46 + 1976 / 2 + 40)
+(2 ** 10 + 3 * 2) / (48 - 46 + 1976 / 2 + 40)
 
 7 / 3
 
@@ -251,7 +258,8 @@ math.sqrt(25)
 math.log(100,10)
 math.log(27,3)
 math.sin(math.pi/2)
-pi
+math.pi
+from math import radians, pi
 radians(180)
 radians(180) == pi
 ```
@@ -465,6 +473,7 @@ print('Fim do loop')
 
 **Exercício 10:** Escreva um programa 'factors.py' que inclua uma função para calcular todos os números inteiros que são divisores de um número dado. Exemplo:
 
+```python
 >>>
 Digite um número inteiro: 12
 1 é um divisor de 12
@@ -473,8 +482,9 @@ Digite um número inteiro: 12
 4 é um divisor de 12
 6 é um divisor de 12
 12 é um divisor de 12
+```
 
-Dica: Use módulo e laço.
+**Dica:** Use módulo e laço.
 
 **Exercício 11:** Encontre todos os números primos até 120.
 
@@ -507,28 +517,32 @@ for idx, item in enumerate(lista):
 ```
 
 
-## if else
+## if else (condições)
 
-### Condições
+```python
+a > b
+a < b
+a >= b
+a <= b
+a != b
+a == b
+```
 
-`a > b`
-`a < b`
-`a >= b`
-`a <= b`
-`a != b`
-`a == b`
+```python
+True and True
+True and False
+False and True
+False and False
+True or True
+True or False
+False or True
+False or False
+```
 
-`True and True`
-`True and False`
-`False and True`
-`False and False`
-`True or True`
-`True or False`
-`False or True`
-`False or False`
-
-`not True`
-`not False`
+```python
+not True
+not False
+```
 
 ```python
 if 2 + 2 == 4:
@@ -544,14 +558,14 @@ else:
     print('Falso')
 ```
 
-Coloque o `not` e veja o resultado.
+Coloque o `not` no exemplo anterior e veja o resultado.
 
 ```python
 if 3 % 2:
     print('Três é impar')
 ```
 
-**Exercício:** Par ou ímpar. Escreva uma função com um parâmetro n que retorne Verdadeiro caso n seja par e Falso caso seja ímpar.
+**Exercício 12:** Par ou ímpar. Escreva uma função com um parâmetro n que retorne Verdadeiro caso n seja par e Falso caso seja ímpar.
 
 
 ## List Comprehensions
