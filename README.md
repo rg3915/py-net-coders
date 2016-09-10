@@ -4,7 +4,7 @@ Este foi um [Mini Curso de Python](http://www.meetup.com/NetCoders/events/233733
 
 # Ementa
 
-* Instalação
+* [Instalação](#Instalação)
 * Python é interpretado
 * Python tem tipagem forte e dinâmica
 * strings
