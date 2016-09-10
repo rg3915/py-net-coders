@@ -7,25 +7,26 @@ Este foi um [Mini Curso de Python](http://www.meetup.com/NetCoders/events/233733
 * [Instalação](#instalação)
 * [Python é interpretado](#python-é-interpretado)
 * [Python tem tipagem forte e dinâmica](#python-tem-tipagem-forte-e-dinâmica)
-* strings
-* replace
-* slices
-* listas
-* tuplas
-* split
-* for
-* if else
-* list comprehensions
-* type(), help(), dir()
-* atribuições múltiplas
-* Dicionários
-* Funções
-* Lambda
-* Testes
-* Try/except
-* Random
-* I/O
-* Orientação a Objetos
+* [strings](#strings)
+* [replace](#replace)
+* [slices](#slices)
+* [listas](#listas)
+* [tuplas](#tuplas)
+* [split](#split)
+* [while](#while)
+* [for](#for)
+* [if else](#if-else-condições)
+* [list comprehensions](#list-comprehensions)
+* [type(), help(), dir()](#type-help-dir)
+* [atribuições múltiplas](#atribuições-múltiplas)
+* [Dicionários](#dicionários)
+* [Funções](#funções)
+* [Lambda](#lambda)
+* [Testes](#testes)
+* [Try/except](#tryexcept)
+* [Random](#random)
+* [I/O](#io)
+* [Orientação a Objetos](#orientação-a-objetos)
 
 ## Instalação
 
