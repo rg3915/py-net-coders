@@ -1264,6 +1264,10 @@ http://tableless.com.br/por-que-python/
 
 https://www.python.org/
 
+[Python 3.5.2 documentation](https://docs.python.org/3/)
+
+[Python Shell online](https://www.python.org/shell/)
+
 [A forma como você programa, faz toda a diferença](http://henriquebastos.net/a-forma-como-voce-programa-faz-toda-a-diferenca/) by [@henriquebastos](http://henriquebastos.net/)
 
 
