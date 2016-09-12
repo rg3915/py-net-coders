@@ -226,7 +226,13 @@ def _capitalize(texto):
 from mycapitalize import _capitalize
 
 palavras = 'joaquim josé da silva xavier'
-...
+nome = []
+
+for palavra in palavras.split():
+    print(_capitalize(palavra))
+    nome.append(_capitalize(palavra))
+
+print(' '.join(nome))
 ```
 
 
@@ -908,7 +914,28 @@ P = {x \in \Z | x mod 2 = 0}
 Arrumando o código temos:
 
 ```python
-code here
+def par(n):
+    if n % 2 == 0:
+        return True
+    return False
+
+
+def test_par():
+    assert par(0) == True
+    assert par(1) == False
+    assert par(2) == True
+    assert par(4) == True
+    assert par(42) == True
+
+if __name__ == '__main__':
+    test_par()
+```
+
+Existe uma outra solução para este problema:
+
+```python
+def par(n):
+    return n % 2 == 0
 ```
 
 ### Unittest
